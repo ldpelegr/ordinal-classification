@@ -2,7 +2,7 @@ library(tidyverse)
 library(caret)
 source("ordinal_classification.R")
 
-
+# load in sample data
 X = read_csv("data/downsampled_features.csv")
 y = read_csv("data/downsampled_target.csv")
 
